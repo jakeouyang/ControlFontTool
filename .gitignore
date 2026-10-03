@@ -1,0 +1,11 @@
+# Build output
+bin/
+obj/
+publish/
+
+# Game UI assets (copyrighted — extract from your own game, see README)
+Resources/Ui/*.ui
+
+# IDE
+.vs/
+*.user
