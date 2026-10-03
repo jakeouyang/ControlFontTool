@@ -2,6 +2,19 @@
 
 [中文](#中文) | [English](#english)
 
+<p align="center">
+  <img src="app.png" alt="CONTROL Font Tool" width="720">
+</p>
+
+## Download / 下载
+
+[![Release](https://img.shields.io/github/v/release/jakeouyang/ControlFontTool)](https://github.com/jakeouyang/ControlFontTool/releases/latest)
+
+- 中文：前往 [Releases](https://github.com/jakeouyang/ControlFontTool/releases/latest) 下载最新 `ControlFontTool-v*-win-x64.zip`，解压即用，无需安装 .NET。
+- English: grab the latest `ControlFontTool-v*-win-x64.zip` from [Releases](https://github.com/jakeouyang/ControlFontTool/releases/latest) — portable and self-contained, no .NET installation required.
+
+> 英文/繁體功能需要按下方说明准备一次 .ui 资源 / English & Traditional Chinese need the one-time UI resource setup below.
+
 ---
 
 ## 中文
@@ -22,9 +35,10 @@ Windows x64《Control》（控制）界面字体替换工具。支持**简体中
 
 ### 使用
 
-1. 安装 [Loose Files Loader](https://www.nexusmods.com/control/mods/84)（`iphlpapi.dll` 放入游戏根目录）
-2. 运行 `ControlFontTool.exe`，选择游戏根目录与字体文件（TTF / OTF / TTC）
-3. 勾选语言，点击 **生成并安装**；**还原字体** 可随时恢复原版
+1. 从 [Releases](https://github.com/jakeouyang/ControlFontTool/releases/latest) 下载并解压（或自行构建）
+2. 安装 [Loose Files Loader](https://www.nexusmods.com/control/mods/84)（`iphlpapi.dll` 放入游戏根目录）
+3. 运行 `ControlFontTool.exe`，选择游戏根目录与字体文件（TTF / OTF / TTC）
+4. 勾选语言，点击 **生成并安装**；**还原字体** 可随时恢复原版
 
 字体以散装文件写入 `data\uiresources\p7\fonts\`，.ui 重定向补丁写入 `data\uiresources\p7\`。
 
@@ -86,9 +100,10 @@ Windows x64 UI font replacement tool for *Control*. Supports **Simplified Chines
 
 ### Usage
 
-1. Install the [Loose Files Loader](https://www.nexusmods.com/control/mods/84) (`iphlpapi.dll` into the game root)
-2. Run `ControlFontTool.exe`, pick the game folder and a font file (TTF / OTF / TTC)
-3. Check languages, click **Build and install**; **Restore font** reverts anytime
+1. Download and extract the latest build from [Releases](https://github.com/jakeouyang/ControlFontTool/releases/latest) (or build it yourself)
+2. Install the [Loose Files Loader](https://www.nexusmods.com/control/mods/84) (`iphlpapi.dll` into the game root)
+3. Run `ControlFontTool.exe`, pick the game folder and a font file (TTF / OTF / TTC)
+4. Check languages, click **Build and install**; **Restore font** reverts anytime
 
 Fonts are written to `data\uiresources\p7\fonts\`, the .ui repoint patches to `data\uiresources\p7\`.
 
